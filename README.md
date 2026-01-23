@@ -58,29 +58,3 @@ Faculty of Engineering and Technology, PIM.
 
 <div align="center"> <i>Part of the Data Structure and Algorithm Coursework (2025)</i> </div>
 
----
-
-## 🚀 How to Run
-
-### Running C# Files
-Ensure you have the .NET SDK installed.
-dotnet run --project "path/to/project.csproj"
-# Or compile manually
-
-csc Program.cs
-./Program
-Running Java Files
-Ensure you have the JDK installed.
-
-Bash
-
-javac BinaryTree.java
-java BinaryTree
-Running Python Project
-Ensure you have Python installed with the required libraries:
-
-Bash
-
-pip install networkx matplotlib
-python 10-Project/Pro.py
-
