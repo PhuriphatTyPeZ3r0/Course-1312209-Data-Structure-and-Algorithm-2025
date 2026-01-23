@@ -64,9 +64,9 @@ Faculty of Engineering and Technology, PIM.
 
 ### Running C# Files
 Ensure you have the .NET SDK installed.
-```bash
 dotnet run --project "path/to/project.csproj"
 # Or compile manually
+
 csc Program.cs
 ./Program
 Running Java Files
@@ -83,3 +83,4 @@ Bash
 
 pip install networkx matplotlib
 python 10-Project/Pro.py
+
