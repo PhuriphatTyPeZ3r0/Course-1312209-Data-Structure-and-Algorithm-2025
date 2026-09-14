@@ -4,9 +4,10 @@
 
 [![Institution: PIM](https://img.shields.io/badge/Institution-PIM-003366?style=for-the-badge&logo=google-classroom&logoColor=white)](https://www.pim.ac.th/)
 [![Faculty: CPE & AI](https://img.shields.io/badge/Faculty-CPE%20%26%20AI-blue?style=for-the-badge)](https://www.pim.ac.th/)
-[![Academic Year](https://img.shields.io/badge/Academic%20Year-1%2F2025-orange?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
+[![Academic Year](https://img.shields.io/badge/Academic%20Year-1.2%2F2568%20(2025)-orange?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
 [![Grade: B](https://img.shields.io/badge/Grade-B%20(3.00)-blue?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
 [![Language: C#](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
+[![Language: Python](https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Obsidian Compatible](https://img.shields.io/badge/Obsidian-Vault%20Ready-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/)
 
 **คลังสรุปเนื้อหา แบบฝึกหัด โค้ดแล็บ และโครงงานวิชาโครงสร้างข้อมูลและขั้นตอนวิธี (C# & Python)**  
@@ -16,24 +17,37 @@
 
 ---
 
-## 📌 ข้อมูลรายวิชาเบื้องต้น (Course Information)
-
-- **รหัสวิชา:** `1312209`
-- **ชื่อวิชา:** Data Structure and Algorithm (โครงสร้างข้อมูลและขั้นตอนวิธี)
-- **ภาษาที่ใช้:** C# (.NET Core) & Python
-- **หน่วยกิต:** 3 หน่วยกิต (2-2-5)
-- **ภาคการศึกษา / ปีการศึกษา:** ภาคเรียนที่ 1 / ปีการศึกษา 2568 (1/2025)
-- **ผลการเรียนที่ได้รับ (Grade):** **B**
+## 📌 สารบัญ (Table of Contents)
+- [📖 1. ข้อมูลรายวิชาเบื้องต้น (Course Information)](#-1-ข้อมูลรายวิชาเบื้องต้น-course-information)
+- [📂 2. โครงสร้าง Repository (Standard Course Layout)](#-2-โครงสร้าง-repository-standard-course-layout)
+- [📚 3. เนื้อหาและการบรรยาย (Lectures & Slides)](#-3-เนื้อหาและการบรรยาย-lectures--slides)
+- [💻 4. แบบฝึกหัดและการทดลองภาคปฏิบัติ (Labs & Assignments)](#-4-แบบฝึกหัดและการทดลองภาคปฏิบัติ-labs--assignments)
+- [🏆 5. โครงงานประจำรายวิชา (Course Projects)](#-5-โครงงานประจำรายวิชา-course-projects)
+- [📝 6. สรุปทบทวนและเตรียมสอบ (Exams Review)](#-6-สรุปทบทวนและเตรียมสอบ-exams-review)
+- [⚖️ 7. จริยธรรมทางวิชาการ (Academic Integrity Notice)](#-7-จริยธรรมทางวิชาการ-academic-integrity-notice)
+- [👨‍💻 8. ผู้จัดทำ (Author)](#-8-ผู้จัดทำ-author)
 
 ---
 
-## 📂 โครงสร้าง Repository (Standard Course Layout)
+## 📖 1. ข้อมูลรายวิชาเบื้องต้น (Course Information)
+
+- **รหัสวิชา:** `1312209`
+- **ชื่อวิชาภาษาอังกฤษ:** Data Structure and Algorithm
+- **ชื่อวิชาภาษาไทย:** โครงสร้างข้อมูลและขั้นตอนวิธี
+- **ภาษาที่ใช้:** C# (.NET Core / .NET 8+) และ Python 3.11+
+- **หน่วยกิต:** 3 หน่วยกิต (2-2-5)
+- **ภาคการศึกษา / ปีการศึกษา:** ภาคเรียนที่ 1.2 / ปีการศึกษา 2568 (2025)
+- **ผลการเรียนที่ได้รับ (Grade):** **B (3.00)**
+
+---
+
+## 📂 2. โครงสร้าง Repository (Standard Course Layout)
 
 ```text
 Course-1312209-Data-Structure-and-Algorithm-2025/
 ├── 00_Templates/               # Template โน้ตและคู่มือ format (Markdown/Obsidian)
-├── 01_Lectures/
-│   ├── 01_Docs/               # เอกสารและตำราประกอบการสอน (Syllabus, Handouts)
+├── 01_Lectures/                # เอกสารและตำราประกอบการสอน
+│   ├── 01_Docs/               # เอกสารประกอบการสอน (Syllabus, Handouts)
 │   └── 02_Teaching_Slides/    # สไลด์ประกอบการสอนประจำสัปดาห์
 ├── 02_Labs_Assignments/       # ใบงาน แบบฝึกหัด และโค้ดแล็บโครงสร้างข้อมูล
 │   ├── 02-Array/              # 1D, 2D, 3D Arrays และโจทย์ประยุกต์
@@ -47,33 +61,56 @@ Course-1312209-Data-Structure-and-Algorithm-2025/
 └── README.md                   # เอกสารแนะนำและสารบัญหลัก
 ```
 
+> **หมายเหตุ:** โครงสร้างนี้รองรับการเปิดอ่านบน GitHub และเปิดเป็น **Obsidian Vault** โดยสมบูรณ์
+
 ---
 
-## 💻 เนื้อหาและแบบฝึกหัดภาคปฏิบัติ (Labs & Assignments)
+## 📚 3. เนื้อหาและการบรรยาย (Lectures & Slides)
 
-| ลำดับ | โครงสร้างข้อมูล (Data Structure) | คำอธิบายและรายละเอียดการทดลอง | โฟลเดอร์ซอร์สโค้ด |
+| หมวดเนื้อหา | หัวข้อการบรรยาย (Core Data Structures) | รายละเอียดเนื้อหา | สไลด์ / เอกสาร |
 | :---: | :--- | :--- | :---: |
-| **01** | **Arrays (1D, 2D, 3D)** | การจัดการหน่วยความจำแบบเรียงต่อกัน, Row/Column Major, การค้นหาและการแปลงมิติ | [02-Array](02_Labs_Assignments/02-Array/) |
-| **02** | **Linked Lists** | การเชื่อมโยงโหนดด้วย Pointer/Reference, Insertion, Deletion, Search, Memory Efficiency | [03-Linked List](02_Labs_Assignments/03-Linked%20List/) |
-| **03** | **Trees & BST** | โครงสร้างต้นไม้แบบลำดับชั้น, Binary Search Tree (BST), In-order/Pre-order/Post-order Traversal | [07-Tree](02_Labs_Assignments/07-Tree/) |
+| **Complexity Analysis** | **Asymptotic Notation & Big-O Analysis** | Time Complexity, Space Complexity, Best/Average/Worst Case | [เอกสาร](01_Lectures/01_Docs/) |
+| **Linear Structures** | **Arrays, Stacks, Queues & Linked Lists** | Contiguous Memory, Pointer-based Nodes, LIFO/FIFO Mechanisms | [เอกสาร](01_Lectures/01_Docs/) |
+| **Hierarchical Structures** | **Binary Trees & Binary Search Trees (BST)** | Tree Representation, Node Insertion/Deletion, Depth-First Search | [เอกสาร](01_Lectures/01_Docs/) |
+| **Sorting & Searching** | **Efficient Search & Sorting Algorithms** | Binary Search, Merge Sort, Quick Sort, Complexity Proofs | [เอกสาร](01_Lectures/01_Docs/) |
+| **Graph Algorithms** | **Graph Traversals & Shortest Paths** | Adjacency Matrix/List, BFS, DFS, Dijkstra's Algorithm | [เอกสาร](01_Lectures/01_Docs/) |
 
 ---
 
-## 🎯 โครงงานประจำรายวิชา (Course Projects)
+## 💻 4. แบบฝึกหัดและการทดลองภาคปฏิบัติ (Labs & Assignments)
 
-### 🏆 10-Project (Algorithm Simulation)
-- **เทคโนโลยี:** Python
-- **รายละเอียด:** การประยุกต์ใช้อัลกอริทึมและการจัดการโครงสร้างข้อมูลขั้นสูงในการแก้ปัญหาเชิงคำนวณ
+| ลำดับแล็บ | โครงสร้างข้อมูล (Data Structure) | คำอธิบายและรายละเอียดการทดลอง | โฟลเดอร์ซอร์สโค้ด |
+| :---: | :--- | :--- | :---: |
+| **Lab 01** | **Arrays (1D, 2D, 3D)** | การจัดการหน่วยความจำแบบเรียงต่อกัน, Row/Column Major, การค้นหาและการแปลงมิติ | [เปิดโค้ด](02_Labs_Assignments/02-Array/) |
+| **Lab 02** | **Linked Lists** | การเชื่อมโยงโหนดด้วย Pointer/Reference, Insertion, Deletion, Search, Memory Efficiency | [เปิดโค้ด](02_Labs_Assignments/03-Linked%20List/) |
+| **Lab 03** | **Trees & BST** | โครงสร้างต้นไม้แบบลำดับชั้น, Binary Search Tree (BST), In-order/Pre-order/Post-order Traversal | [เปิดโค้ด](02_Labs_Assignments/07-Tree/) |
+
+---
+
+## 🏆 5. โครงงานประจำรายวิชา (Course Projects)
+
+> โครงงานและแอปพลิเคชันขั้นตอนวิธีที่พัฒนาขึ้นในรายวิชา (เก็บอยู่ในโฟลเดอร์ `03_Projects/`)
+
+### 🐍 10-Project (Algorithm Simulation)
+- **เทคโนโลยี:** `Python 3.11+, Algorithmic Problem Solving`
+- **รายละเอียด:** การประยุกต์ใช้อัลกอริทึมและการจัดการโครงสร้างข้อมูลขั้นสูงในการแก้ปัญหาเชิงคำนวณและการจัดสรรทรัพยากร
 - **โฟลเดอร์โครงงาน:** [10-Project](03_Projects/10-Project/)
 
 ### ⚡ MyApp (.NET C# Application)
-- **เทคโนโลยี:** C#, .NET 8 / 9 SDK, Visual Studio Solution
+- **เทคโนโลยี:** `C#, .NET 8 / 9 SDK, Visual Studio Solution`
 - **รายละเอียด:** คอนโซลแอปพลิเคชันสำหรับทดสอบความซับซ้อนของขั้นตอนวิธี (Time & Space Complexity / Big O)
 - **โฟลเดอร์โครงงาน:** [MyApp](03_Projects/MyApp/)
 
 ---
 
-## ⚖️ จริยธรรมทางวิชาการ (Academic Integrity Notice)
+## 📝 6. สรุปทบทวนและเตรียมสอบ (Exams Review)
+
+- [x] **สรุปทบทวนการสอบกลางภาค (Midterm Review):** [บันทึกสรุป Arrays, Stacks, Queues และ Linked Lists](04_Exams_Review/)
+- [x] **สรุปทบทวนการสอบปลายภาค (Final Review):** [บันทึกสรุป Trees, Graphs, Sorting และ Big O](04_Exams_Review/)
+
+---
+
+## ⚖️ 7. จริยธรรมทางวิชาการ (Academic Integrity Notice)
 
 > [!NOTE]  
 > คลังนี้จัดทำขึ้นเพื่อเป็น **บันทึกการเรียนรู้ส่วนบุคคล (Personal Learning Archive)** และนำเสนอพัฒนาการทางวิชาการ (Academic Portfolio) เท่านั้น  
@@ -81,9 +118,10 @@ Course-1312209-Data-Structure-and-Algorithm-2025/
 
 ---
 
-## 👨‍💻 ผู้จัดทำ (Author)
+## 👨‍💻 8. ผู้จัดทำ (Author)
 
 **Phuriphat Hemakul (PhuriphatTyPeZ3r0)**
 - 🎓 นักศึกษา สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CPE & AI)
 - 🏛️ สถาบันการจัดการปัญญาภิวัฒน์ (PIM)
 - 🐙 GitHub: [@PhuriphatTyPeZ3r0](https://github.com/PhuriphatTyPeZ3r0)
+- 🌐 Portfolio: [resume-phuriphat-hemakul.vercel.app](https://resume-phuriphat-hemakul.vercel.app)
