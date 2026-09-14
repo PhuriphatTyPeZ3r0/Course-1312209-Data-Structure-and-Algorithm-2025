@@ -1,3 +1,9 @@
-/MyApp
+# Visual Studio & .NET Build Artifacts
+**/[Bb]in/
+**/[Oo]bj/
+**/.vs/
+*.user
+*.suo
+
+# Ignore large/proprietary files if needed
 Assingment-บทที่ 1 แนวคิดเกี่ยวกับโครงสร้างข้อมูล.pdf
-Data-Structure-and-Algorithm-2025.sln
