@@ -1,60 +1,89 @@
-# 📚 Data Structure and Algorithm 2025
+# 1312209 Data Structure and Algorithm (โครงสร้างข้อมูลและขั้นตอนวิธี)
 
-![Repo Size](https://img.shields.io/github/repo-size/PhuriphatiZAMU/Data-Structure-and-Algorithm-2025?style=flat-square&color=blue)
-![Last Commit](https://img.shields.io/github/last-commit/PhuriphatiZAMU/Data-Structure-and-Algorithm-2025?style=flat-square&color=green)
+<div align="center">
 
-This repository contains source codes, assignments, and projects for the **Data Structure and Algorithm** course (2025). It includes implementations of fundamental data structures and algorithmic problem-solving using **C#, Java, and Python**.
+[![Institution: PIM](https://img.shields.io/badge/Institution-PIM-003366?style=for-the-badge&logo=google-classroom&logoColor=white)](https://www.pim.ac.th/)
+[![Faculty: CPE & AI](https://img.shields.io/badge/Faculty-CPE%20%26%20AI-blue?style=for-the-badge)](https://www.pim.ac.th/)
+[![Academic Year](https://img.shields.io/badge/Academic%20Year-1%2F2025-orange?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
+[![Grade: B](https://img.shields.io/badge/Grade-B%20(3.00)-blue?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
+[![Language: C#](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
+[![Obsidian Compatible](https://img.shields.io/badge/Obsidian-Vault%20Ready-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/)
 
----
+**คลังสรุปเนื้อหา แบบฝึกหัด โค้ดแล็บ และโครงงานวิชาโครงสร้างข้อมูลและขั้นตอนวิธี (C# & Python)**  
+*สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CPE & AI) — สถาบันการจัดการปัญญาภิวัฒน์ (PIM)*
 
-## 🛠️ Technologies & Languages
-
-The implementations in this repository utilize the following languages:
-
-| Language | Usage Context |
-| :--- | :--- |
-| ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) | **Arrays & Linked Lists:** Core data structure logic and memory management. |
-| ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) | **Trees:** Hierarchical data structures and traversal algorithms. |
-| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | **Graph Algorithms:** Advanced pathfinding visualization (Dijkstra). |
+</div>
 
 ---
 
-## 📂 Repository Structure
+## 📌 ข้อมูลรายวิชาเบื้องต้น (Course Information)
 
-### 1. Array Operations (C#)
-Located in `/02-Array`, this section covers multidimensional array manipulation and real-world application logic.
-- **1D, 2D, & 3D Arrays:** Traversing, Inserting, Deleting, Searching, and Sorting.
-- **Assignments:**
-  - `Pixel-Max-Min.cs`: Image processing logic (Grayscale analysis).
-  - `Student-Score.cs`: Matrix handling for educational data.
-  - `Video-Value.cs` & `Total-Sales.cs`: 3D array data processing.
-
-### 2. Linked Lists (C#)
-Located in `/03-Linked List`, demonstrating dynamic memory allocation.
-- **Singly Linked List:** Basic node linking and traversal.
-- **Doubly Linked List:** Bidirectional traversal with `Prev` and `Next` pointers.
-- **Circular Singly Linked List:** Ring topology implementation.
-
-### 3. Trees (Java)
-Located in `/07-Tree`.
-- **Binary Tree:** Implementation of a standard binary tree structure.
-- **Traversals:** `Inorder`, `Preorder`, and `Postorder` recursive algorithms.
-
-### 4. Project: Graph Visualization (Python)
-Located in `/10-Project`.
-- **Dijkstra's Algorithm Visualizer:** A Python script (`Pro.py`) that calculates the shortest path between nodes.
-- **Features:**
-  - Visualizes the graph using `networkx` and `matplotlib`.
-  - Shows step-by-step distance updates.
-  - Highlights the final shortest path dynamically.
+- **รหัสวิชา:** `1312209`
+- **ชื่อวิชา:** Data Structure and Algorithm (โครงสร้างข้อมูลและขั้นตอนวิธี)
+- **ภาษาที่ใช้:** C# (.NET Core) & Python
+- **หน่วยกิต:** 3 หน่วยกิต (2-2-5)
+- **ภาคการศึกษา / ปีการศึกษา:** ภาคเรียนที่ 1 / ปีการศึกษา 2568 (1/2025)
+- **ผลการเรียนที่ได้รับ (Grade):** **B**
 
 ---
-👤 Author
-Phuriphat Hemkul - GitHub: @PhuriphatiZAMU
 
-Student ID: [6752300313]
+## 📂 โครงสร้าง Repository (Standard Course Layout)
 
-Faculty of Engineering and Technology, PIM.
+```text
+Course-1312209-Data-Structure-and-Algorithm-2025/
+├── 00_Templates/               # Template โน้ตและคู่มือ format (Markdown/Obsidian)
+├── 01_Lectures/
+│   ├── 01_Docs/               # เอกสารและตำราประกอบการสอน (Syllabus, Handouts)
+│   └── 02_Teaching_Slides/    # สไลด์ประกอบการสอนประจำสัปดาห์
+├── 02_Labs_Assignments/       # ใบงาน แบบฝึกหัด และโค้ดแล็บโครงสร้างข้อมูล
+│   ├── 02-Array/              # 1D, 2D, 3D Arrays และโจทย์ประยุกต์
+│   ├── 03-Linked List/        # Singly, Doubly, Circular Linked List
+│   └── 07-Tree/               # Binary Tree, BST, Tree Traversals
+├── 03_Projects/                # โครงงานและโปรเจกต์ประจำวิชา
+│   ├── 10-Project/            # Final Algorithm Implementation Project (Python)
+│   └── MyApp/                 # .NET C# Console Application Project
+├── 04_Exams_Review/            # แนวข้อสอบ สรุปทบทวนก่อนสอบกลางภาคและปลายภาค
+├── Data-Structure-and-Algorithm-2025.sln # Visual Studio Solution File
+└── README.md                   # เอกสารแนะนำและสารบัญหลัก
+```
 
-<div align="center"> <i>Part of the Data Structure and Algorithm Coursework (2025)</i> </div>
+---
 
+## 💻 เนื้อหาและแบบฝึกหัดภาคปฏิบัติ (Labs & Assignments)
+
+| ลำดับ | โครงสร้างข้อมูล (Data Structure) | คำอธิบายและรายละเอียดการทดลอง | โฟลเดอร์ซอร์สโค้ด |
+| :---: | :--- | :--- | :---: |
+| **01** | **Arrays (1D, 2D, 3D)** | การจัดการหน่วยความจำแบบเรียงต่อกัน, Row/Column Major, การค้นหาและการแปลงมิติ | [02-Array](02_Labs_Assignments/02-Array/) |
+| **02** | **Linked Lists** | การเชื่อมโยงโหนดด้วย Pointer/Reference, Insertion, Deletion, Search, Memory Efficiency | [03-Linked List](02_Labs_Assignments/03-Linked%20List/) |
+| **03** | **Trees & BST** | โครงสร้างต้นไม้แบบลำดับชั้น, Binary Search Tree (BST), In-order/Pre-order/Post-order Traversal | [07-Tree](02_Labs_Assignments/07-Tree/) |
+
+---
+
+## 🎯 โครงงานประจำรายวิชา (Course Projects)
+
+### 🏆 10-Project (Algorithm Simulation)
+- **เทคโนโลยี:** Python
+- **รายละเอียด:** การประยุกต์ใช้อัลกอริทึมและการจัดการโครงสร้างข้อมูลขั้นสูงในการแก้ปัญหาเชิงคำนวณ
+- **โฟลเดอร์โครงงาน:** [10-Project](03_Projects/10-Project/)
+
+### ⚡ MyApp (.NET C# Application)
+- **เทคโนโลยี:** C#, .NET 8 / 9 SDK, Visual Studio Solution
+- **รายละเอียด:** คอนโซลแอปพลิเคชันสำหรับทดสอบความซับซ้อนของขั้นตอนวิธี (Time & Space Complexity / Big O)
+- **โฟลเดอร์โครงงาน:** [MyApp](03_Projects/MyApp/)
+
+---
+
+## ⚖️ จริยธรรมทางวิชาการ (Academic Integrity Notice)
+
+> [!NOTE]  
+> คลังนี้จัดทำขึ้นเพื่อเป็น **บันทึกการเรียนรู้ส่วนบุคคล (Personal Learning Archive)** และนำเสนอพัฒนาการทางวิชาการ (Academic Portfolio) เท่านั้น  
+> ไม่อนุญาตให้นำโค้ดหรือการบ้านไปคัดลอก (Plagiarism) เพื่อส่งงานในรายวิชาโดยไม่ได้รับอนุญาตตามระเบียบของสถาบันฯ
+
+---
+
+## 👨‍💻 ผู้จัดทำ (Author)
+
+**Phuriphat Hemakul (PhuriphatTyPeZ3r0)**
+- 🎓 นักศึกษา สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CPE & AI)
+- 🏛️ สถาบันการจัดการปัญญาภิวัฒน์ (PIM)
+- 🐙 GitHub: [@PhuriphatTyPeZ3r0](https://github.com/PhuriphatTyPeZ3r0)
