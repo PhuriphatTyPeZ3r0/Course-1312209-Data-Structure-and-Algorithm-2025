@@ -1,9 +1,9 @@
-# 1312209 Data Structure and Algorithm (โครงสร้างข้อมูลและขั้นตอนวิธี)
+﻿# 1312209 Data Structure and Algorithm (โครงสร้างข้อมูลและขั้นตอนวิธี)
 
 <div align="center">
 
 [![Institution: PIM](https://img.shields.io/badge/Institution-PIM-003366?style=for-the-badge&logo=google-classroom&logoColor=white)](https://www.pim.ac.th/)
-[![Faculty: CPE & AI](https://img.shields.io/badge/Faculty-CPE%20%26%20AI-blue?style=for-the-badge)](https://www.pim.ac.th/)
+[![Program: CAI](https://img.shields.io/badge/Program-CAI-blue?style=for-the-badge)](https://www.pim.ac.th/)
 [![Academic Year](https://img.shields.io/badge/Academic%20Year-1.2%2F2568%20(2025)-orange?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
 [![Grade: B](https://img.shields.io/badge/Grade-B%20(3.00)-blue?style=for-the-badge)](https://github.com/PhuriphatTyPeZ3r0)
 [![Language: C#](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/)
@@ -11,7 +11,7 @@
 [![Obsidian Compatible](https://img.shields.io/badge/Obsidian-Vault%20Ready-7C3AED?style=for-the-badge&logo=obsidian&logoColor=white)](https://obsidian.md/)
 
 **คลังสรุปเนื้อหา แบบฝึกหัด โค้ดแล็บ และโครงงานวิชาโครงสร้างข้อมูลและขั้นตอนวิธี (C# & Python)**  
-*สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CPE & AI) — สถาบันการจัดการปัญญาภิวัฒน์ (PIM)*
+*สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CAI) — สถาบันการจัดการปัญญาภิวัฒน์ (PIM)*
 
 </div>
 
@@ -121,7 +121,7 @@ Course-1312209-Data-Structure-and-Algorithm-2025/
 ## 👨‍💻 8. ผู้จัดทำ (Author)
 
 **Phuriphat Hemakul (PhuriphatTyPeZ3r0)**
-- 🎓 นักศึกษา สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CPE & AI)
+- 🎓 นักศึกษา สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (CAI)
 - 🏛️ สถาบันการจัดการปัญญาภิวัฒน์ (PIM)
 - 🐙 GitHub: [@PhuriphatTyPeZ3r0](https://github.com/PhuriphatTyPeZ3r0)
 - 🌐 Portfolio: [resume-phuriphat-hemakul.vercel.app](https://resume-phuriphat-hemakul.vercel.app)
